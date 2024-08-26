@@ -644,7 +644,7 @@ contract redsnake is ERC20, Ownable {
 
 
     constructor() ERC20("red snake", "$SNKE") {
-        _mint(msg.sender, 350000000 * 10 ** decimals());
+        _mint(msg.sender, 300000000 * 10 ** decimals());
     }
 
     function mint(uint256 _amount) public {
